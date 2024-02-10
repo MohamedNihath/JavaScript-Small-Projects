@@ -1,0 +1,96 @@
+/* @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins",sans-serif;
+
+}
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.container h3{
+
+    font-weight:400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.form-group{
+
+    color:#333;
+    margin-bottom:5px;
+    padding-bottom: 10px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+
+    border: 2px solid #f0f0f0;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+p{
+
+    font-size: 10px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+button{
+
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #3c40c6;
+    color: white;
+    background-color: #3c40c6;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.error > p{
+    visibility: visible;
+    color: #f53b57;
+
+}
+
+
+.error > input{
+
+
+    border-color: #f53b57;
+
+}
+
+.success > input {
+   border-color:#05c46b;
+
+
+}
